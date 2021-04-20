@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "basedcooking:block/paper_basket_top",
+        "bottom": "basedcooking:block/paper_basket_side",
+        "side": "basedcooking:block/paper_basket_side"
+    }
+}

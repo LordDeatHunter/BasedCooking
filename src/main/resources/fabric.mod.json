@@ -1,0 +1,34 @@
+{
+  "schemaVersion": 1,
+  "id": "basedcooking",
+  "version": "${version}",
+
+  "name": "Based Cooking",
+  "description": "",
+  "authors": [
+    "LordDeatHunter",
+    "Pois1x"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": "https://github.com/LordDeatHunter/BasedCooking"
+  },
+
+  "license": "MIT",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "wraith.basedcooking.BasedCooking"
+    ]
+  },
+  "mixins": [
+    "basedcooking.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  }
+}

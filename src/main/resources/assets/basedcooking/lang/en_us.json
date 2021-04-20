@@ -1,0 +1,32 @@
+{
+  "block.basedcooking.wood_stove": "Wood Stove",
+  "block.basedcooking.wicker_basket": "Wicker Basket",
+  "block.basedcooking.cupboard": "Cupboard",
+  "block.basedcooking.crate": "Crate",
+  "block.basedcooking.paper_basket": "Paper Basket",
+  "block.basedcooking.smooth_chocolate": "Smooth Chocolate",
+  "block.basedcooking.chocolate_tiles": "Chocolate Tiles",
+  "block.basedcooking.chocolate_pillar": "Chocolate Pillar",
+
+  "item.basedcooking.wood_stove": "Wood Stove",
+  "item.basedcooking.wicker_basket": "Wicker Basket",
+  "item.basedcooking.cupboard": "Cupboard",
+  "item.basedcooking.crate": "Crate",
+  "item.basedcooking.paper_basket": "Paper Basket",
+  "item.basedcooking.smooth_chocolate": "Smooth Chocolate",
+  "item.basedcooking.chocolate_tiles": "Chocolate Tiles",
+  "item.basedcooking.chocolate_pillar": "Chocolate Pillar",
+
+  "item.basedcooking.bagel": "Bagel",
+  "item.basedcooking.chocolate": "Chocolate",
+  "item.basedcooking.cooked_spider_meat": "Cooked Spider Meat",
+  "item.basedcooking.fried_egg": "Fried Egg",
+  "item.basedcooking.knife": "Knife",
+  "item.basedcooking.knife_sharpener": "Knife Sharpener",
+  "item.basedcooking.pan": "Pan",
+  "item.basedcooking.pot": "Pot",
+  "item.basedcooking.raw_spider_meat": "Raw Spider Meat",
+  "item.basedcooking.spider_bagel_burger": "Spider Bagel Burger",
+
+  "itemGroup.basedcooking.based_cooking": "Based Cooking"
+}
