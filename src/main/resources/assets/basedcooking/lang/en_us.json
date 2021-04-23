@@ -28,5 +28,9 @@
   "item.basedcooking.raw_spider_meat": "Raw Spider Meat",
   "item.basedcooking.spider_bagel_burger": "Spider Bagel Burger",
 
+  "container.basedcooking.cupboard": "Cupboard",
+  "container.basedcooking.paper_basket": "Paper Basket",
+  "container.basedcooking.wicker_basket": "Wicker Basket",
+
   "itemGroup.basedcooking.based_cooking": "Based Cooking"
 }

@@ -3,6 +3,7 @@ package wraith.basedcooking;
 import net.fabricmc.api.ModInitializer;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
+import wraith.basedcooking.registry.BlockEntityRegistry;
 import wraith.basedcooking.registry.BlockRegistry;
 import wraith.basedcooking.registry.ItemRegistry;
 
@@ -16,6 +17,7 @@ public class BasedCooking implements ModInitializer {
     public void onInitialize() {
         BlockRegistry.register();
         ItemRegistry.register();
+        BlockEntityRegistry.register();
         LOGGER.info("[" + MOD_NAME + "] has been initiated.");
     }
 

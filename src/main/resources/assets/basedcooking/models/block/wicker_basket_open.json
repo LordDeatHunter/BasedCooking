@@ -1,0 +1,8 @@
+{
+    "parent": "minecraft:block/cube_bottom_top",
+    "textures": {
+        "top": "basedcooking:block/wicker_basket_top_open",
+        "bottom": "basedcooking:block/wicker_basket_bottom",
+        "side": "basedcooking:block/wicker_basket_side"
+    }
+}
