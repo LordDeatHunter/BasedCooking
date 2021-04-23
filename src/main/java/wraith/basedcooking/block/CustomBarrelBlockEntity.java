@@ -114,4 +114,9 @@ public abstract class CustomBarrelBlockEntity extends LootableContainerBlockEnti
         this.world.playSound(null, d, e, f, soundEvent, SoundCategory.BLOCKS, 0.5F, this.world.random.nextFloat() * 0.1F + 0.9F);
     }
 
+    @Override
+    public boolean canPlayerUse(PlayerEntity player) {
+        return player.squaredDistanceTo(pos.getX() + 0.5D, pos.getY() + 0.5D, pos.getZ() + 0.5D) <= 64D;
+    }
+
 }

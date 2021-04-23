@@ -14,10 +14,8 @@ import net.minecraft.sound.SoundCategory;
 import net.minecraft.sound.SoundEvent;
 import net.minecraft.sound.SoundEvents;
 import net.minecraft.text.Text;
-import net.minecraft.text.TranslatableText;
 import net.minecraft.util.collection.DefaultedList;
 import net.minecraft.util.math.Vec3i;
-import wraith.basedcooking.BasedCooking;
 
 public abstract class FrontFacingBarrelBlockEntity extends LootableContainerBlockEntity {
 
@@ -46,14 +44,12 @@ public abstract class FrontFacingBarrelBlockEntity extends LootableContainerBloc
         if (!this.deserializeLootTable(tag)) {
             Inventories.fromTag(tag, this.inventory);
         }
-
     }
 
     @Override
     protected DefaultedList<ItemStack> getInvStackList() {
         return this.inventory;
     }
-
 
     @Override
     protected void setInvStackList(DefaultedList<ItemStack> list) {
@@ -109,6 +105,11 @@ public abstract class FrontFacingBarrelBlockEntity extends LootableContainerBloc
 
     public void setOpen(BlockState state, boolean open) {
         this.world.setBlockState(this.getPos(), state.with(FrontFacingBarrelBlock.OPEN, open), 3);
+    }
+
+    @Override
+    public boolean canPlayerUse(PlayerEntity player) {
+        return player.squaredDistanceTo(pos.getX() + 0.5D, pos.getY() + 0.5D, pos.getZ() + 0.5D) <= 64D;
     }
 
     public void playSound(BlockState blockState, SoundEvent soundEvent) {

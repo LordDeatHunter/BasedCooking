@@ -41,4 +41,7 @@ public class ItemRegistry {
         }
     }
 
+    public static Item get(String id) {
+        return ITEMS.get(id);
+    }
 }
